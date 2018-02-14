@@ -8,7 +8,6 @@ def diagonalDifference(a):
 
     for i in range(len(a)): 
         diag_a += a[i][i]
-    for i in range(len(a)):
         
         i_2 = (i - d) * (-1)
         diag_b += a[i][i_2]
